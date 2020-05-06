@@ -1,0 +1,326 @@
+/*  === FONTS   === */
+@font-face {
+  font-family: 'OldKingC';
+  src: url("../fonts/OldKingC.eot");
+  src: url("../fonts/OldKingC.eot?#iefix") format("embedded-opentype"), url("../fonts/OldKingC.woff2") format("woff2"), url("../fonts/OldKingC.woff") format("woff"), url("../fonts/OldKingC.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'OldKingC';
+  src: url("../fonts/OldKingC-Bold.eot");
+  src: url("../fonts/OldKingC-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/OldKingC-Bold.woff2") format("woff2"), url("../fonts/OldKingC-Bold.woff") format("woff"), url("../fonts/OldKingC-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Sunflower';
+  src: local("Sunflower Light"), local("Sunflower-Light"), url("../fonts/Sunflowerlight.woff2") format("woff2"), url("../fonts/Sunflowerlight.woff") format("woff"), url("../fonts/Sunflowerlight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Sunflower';
+  src: local("Sunflower Medium"), local("Sunflower-Medium"), url("../fonts/Sunflowermedium.woff2") format("woff2"), url("../fonts/Sunflowermedium.woff") format("woff"), url("../fonts/Sunflowermedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Sunflower';
+  src: local("Sunflower Bold"), local("Sunflower-Bold"), url("../fonts/Sunflowerbold.woff2") format("woff2"), url("../fonts/Sunflowerbold.woff") format("woff"), url("../fonts/Sunflowerbold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?rpzfpg");
+  src: url("../fonts/icomoon.eot?rpzfpg#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?rpzfpg") format("truetype"), url("../fonts/icomoon.woff?rpzfpg") format("woff"), url("../fonts/icomoon.svg?rpzfpg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-icon_arrow_cart:before {
+  content: "\e900"; }
+
+.icon-icon_arrow_left:before {
+  content: "\e901"; }
+
+.icon-icon_arrow_right:before {
+  content: "\e902"; }
+
+.icon-icon_arrow_small_left:before {
+  content: "\e903"; }
+
+.icon-icon_arrow_small_right:before {
+  content: "\e904"; }
+
+.icon-icon_cart:before {
+  content: "\e905"; }
+
+.icon-icon_chat:before {
+  content: "\e906"; }
+
+.icon-icon_discord:before {
+  content: "\e907"; }
+
+.icon-icon_dota2:before {
+  content: "\e908"; }
+
+.icon-icon_fb:before {
+  content: "\e909"; }
+
+.icon-icon_goup:before {
+  content: "\e90a"; }
+
+.icon-icon_insta:before {
+  content: "\e90b"; }
+
+.icon-icon_login:before {
+  content: "\e90c"; }
+
+.icon-icon_mail:before {
+  content: "\e90d"; }
+
+.icon-icon_mastercard:before {
+  content: "\e90e"; }
+
+.icon-icon_paypal:before {
+  content: "\e90f"; }
+
+.icon-icon_search:before {
+  content: "\e910"; }
+
+.icon-icon_skype:before {
+  content: "\e911"; }
+
+.icon-icon_star:before {
+  content: "\e912"; }
+
+.icon-icon_twitter:before {
+  content: "\e913"; }
+
+.icon-icon_visa:before {
+  content: "\e914"; }
+
+.icon-icon_wow_classic:before {
+  content: "\e915"; }
+
+.icon-icon_wow:before {
+  content: "\e916"; }
+
+/*  === FONTS   === */
+/*  === COLOR ===   */
+/*  === COLOR ===   */
+@media only screen and (min-width: 700px) and (max-width: 1160px) {
+  body {
+    background-position: 50% 7%, 50% 17%, 50% 36.2%, 50% 62%, 50% 88%, center center; }
+  .header__logo .header__logo-link img {
+    height: 240px;
+    margin-top: -70px;
+    margin-bottom: -66px; }
+  header:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 1px);
+    z-index: 1;
+    display: block;
+    background-image: url("../images/bg_head__persons.png");
+    background-position: 54% 45%;
+    background-repeat: no-repeat;
+    background-size: 120%; }
+  .section-head {
+    padding-top: 22px; }
+  .game-detail-menu_submenu {
+    margin-left: -50px; }
+  .game-detail-menu ul li.submenu-data .submenu-data__info {
+    left: calc(100% - 72px); }
+  .container-games .games-container {
+    max-width: 25%;
+    margin-left: 0 !important;
+    margin-right: 0 !important; }
+    .container-games .games-container:nth-last-child(2) {
+      margin-right: auto !important; }
+    .container-games .games-container:first-of-type {
+      margin-left: auto !important; }
+    .container-games .games-container a {
+      font-size: 54px !important; }
+  .container-games .games-container__detail {
+    width: 728px;
+    max-width: 728px;
+    left: calc(50% - 364px); }
+    .container-games .games-container__detail .games-container__detai-container {
+      padding: 20px; }
+  .section-head_scroll .container-games .games-container .games-container {
+    max-width: 25%;
+    margin-left: 0 !important;
+    margin-right: 0 !important; }
+    .section-head_scroll .container-games .games-container .games-container:nth-last-child(2) {
+      margin-right: auto !important; }
+    .section-head_scroll .container-games .games-container .games-container:first-of-type {
+      margin-left: auto !important; }
+    .section-head_scroll .container-games .games-container .games-container a {
+      font-size: 54px !important; }
+  .section-head_scroll .container-games .games-container .games-container__detail {
+    width: 600px;
+    max-width: 600px;
+    left: calc(50% - 300px); }
+    .section-head_scroll .container-games .games-container .games-container__detail .games-container__detai-container {
+      padding: 20px; }
+  .game-detail-menu ul li a {
+    font-size: 14px;
+    line-height: 18px; }
+  .container-search {
+    padding-top: 12px;
+    padding-right: 0px; }
+    .container-search button {
+      top: 10px;
+      right: -4px;
+      background-clip: unset;
+      width: 23px;
+      height: 23px;
+      background-image: url("../images/search_apple.png");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat; }
+      .container-search button i {
+        display: none; }
+    .container-search .search-result {
+      right: 0;
+      top: 100%; }
+  .language-container {
+    padding-top: 11px;
+    padding-left: 0px; }
+  .login-container {
+    padding-top: 14px;
+    padding-left: 4px; }
+  .hot-offers {
+    margin-top: 50px;
+    margin-bottom: 70px; }
+  .hot-offers__slider .item {
+    height: 256px; }
+  .hot-offers__slider .hot-offers__slider-text {
+    bottom: 20px;
+    left: 20px;
+    max-width: 50%; }
+    .hot-offers__slider .hot-offers__slider-text .slider-text__title {
+      font-size: 18px;
+      line-height: 20px; }
+    .hot-offers__slider .hot-offers__slider-text .slider-text__text {
+      font-size: 16px;
+      line-height: 18px; }
+  .choose-us {
+    margin-top: 70px; }
+    .choose-us .choose-left {
+      max-width: 100%;
+      margin-top: 30px; }
+      .choose-us .choose-left .choose-title {
+        -ms-flex: 0 0 30%;
+        flex: 0 0 30%;
+        max-width: 30%;
+        margin-bottom: 10px; }
+      .choose-us .choose-left .choose-container__inner {
+        -ms-flex: 0 0 70%;
+        flex: 0 0 70%;
+        max-width: 70%; }
+        .choose-us .choose-left .choose-container__inner a {
+          width: 46%;
+          margin: 0 2% 28px 2%;
+          height: 50px; }
+          .choose-us .choose-left .choose-container__inner a:nth-of-type(2) {
+            padding-top: 23px; }
+          .choose-us .choose-left .choose-container__inner a:nth-of-type(4) {
+            padding-top: 10px; }
+  .publications {
+    margin-top: 50px; }
+  .public-item__full .public-item__image {
+    width: 241px;
+    margin-bottom: 10px; }
+  .reviews {
+    margin-top: 60px; }
+  footer {
+    margin-top: 60px;
+    padding-top: 40px;
+    display: block;
+    float: left; }
+    footer > .container {
+      padding-left: 0px;
+      display: block; }
+      footer > .container > .row {
+        display: block;
+        float: left; }
+    footer .footer-copyright {
+      max-width: 23% !important;
+      float: left; }
+    footer .footer-information {
+      max-width: 18% !important;
+      float: left; }
+    footer .footer-info ul li {
+      font-size: 12px;
+      line-height: 12px; }
+      footer .footer-info ul li a {
+        font-size: 12px;
+        line-height: 12px; }
+    footer .footer-folow {
+      max-width: 15% !important;
+      float: left; }
+    footer .footer-contact {
+      max-width: 25% !important;
+      float: left; }
+    footer .footer-payment {
+      max-width: 19% !important;
+      float: left; }
+      footer .footer-payment .footer-info ul li i {
+        font-size: 40px; }
+    footer .footer-title {
+      margin-bottom: 10px; }
+      footer .footer-title p {
+        font-size: 13px;
+        line-height: 13px; }
+    footer .footer-info-copy {
+      display: block;
+      width: 100%;
+      float: left; }
+    footer .footer-info-copy p {
+      font-size: 10px;
+      line-height: 12px; }
+  .button__go-up {
+    right: 20px;
+    bottom: 20px;
+    background-image: url("../images/bg_games.jpg");
+    background-size: cover;
+    color: #000000; }
+    .button__go-up:hover {
+      color: #000000; }
+  .public-container > .row {
+    display: block;
+    float: left; }
+  .public-container .public-col {
+    -ms-flex: 0 0 100%;
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%; }
+    .public-container .public-col > .row {
+      width: 100%; }
+      .public-container .public-col > .row .public-item {
+        -ms-flex: 0 0 100%;
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%; } }
+
+/*# sourceMappingURL=sourcemaps/table.css.map */

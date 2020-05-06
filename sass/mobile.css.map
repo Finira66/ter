@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "mobile.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "mobile.css"
+}
