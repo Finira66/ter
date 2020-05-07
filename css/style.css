@@ -1685,7 +1685,7 @@ footer {
   display: block;
   position: fixed;
   z-index: 100;
-  bottom: 110px;
+  bottom: 40px;
   right: 50px;
   width: 40px;
   height: 40px;

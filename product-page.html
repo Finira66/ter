@@ -2090,7 +2090,7 @@
                                             Boost option*
                                         </div>
                                         <select>
-											<option>Please select</option>
+											<option label="Please select"></option>
 											<option>Egestas</option>
 											<option>Aliquet</option>
 											<option>Viverra</option>
@@ -2100,8 +2100,8 @@
                                         <div class="booster-form__name booster-form__name--display">
                                             Play method*
                                         </div>
-                                        <input type="checkbox" id="check-1"><label for="check-1">Selfplay</label> <br class="label-br">
-                                        <input type="checkbox" id="check-2"><label for="check-2">Account Sharing</label>
+                                        <input class="booster__checkbox" type="checkbox" id="check-1"><label class="booster__label" for="check-1">Selfplay</label> <br class="label-br">
+                                        <input class="booster__checkbox" type="checkbox" id="check-2"><label for="check-2">Account Sharing</label>
                                     </div>
                                     <div class="booster-form__time">
                                         <div class="booster-form__name booster-form__name--time">
@@ -2124,24 +2124,41 @@
                                         <div class="booster-form__name">
                                             Additional agreements*
                                         </div>
-                                        <input type="checkbox" id="addit-1"><label for="addit-1">Tristique ut duis cras pulvinar donec porta.</label> <br>
-                                        <input type="checkbox" id="addit-2"><label for="addit-2">Ut ac aliquam eget dui vel odio sed turpis a at.</label> <br>
-                                        <input type="checkbox" id="addit-3"><label for="addit-3">Ut ac aliquam eget dui vel odio sed turpis a at.</label> <br>
-                                        <input type="checkbox" id="addit-4"><label for="addit-4">Fames neque sagittis volutpat tempus velit.</label> <br>
-                                    </div>
-                                    <div class="booster__additional-cost">
-                                        <div class="booster__additional-price">
-                                            <img src="images/product/minus.svg" alt="minus">
-                                            <div class="booster__additional-text">х1</div>
-                                            <img src="images/product/plus.svg" alt="plus">
-                                        </div>
-                                        <div class="booster__aditional-cost-price">
-                                           <p>$40<span>.98</span></p> 
-                                        </div>
-                                        <button class="booster__additional-btn">
-                                            ADD TO CART
-                                        </button>
-                                    </div>
+                                        <input class="booster__checkbox" type="checkbox" id="addit-1"><label for="addit-1">Tristique ut duis cras pulvinar donec porta.</label> <br>
+                                        <input class="booster__checkbox" type="checkbox" id="addit-2"><label for="addit-2">Ut ac aliquam eget dui vel odio sed turpis a at.</label> <br>
+                                        <input class="booster__checkbox" type="checkbox" id="addit-3"><label for="addit-3">Ut ac aliquam eget dui vel odio sed turpis a at.</label> <br>
+                                        <input class="booster__checkbox" type="checkbox" id="addit-4"><label for="addit-4">Fames neque sagittis volutpat tempus velit.</label> <br>
+									</div>
+									
+
+
+									<div class="booster__common-box">
+										<div class="booster__additional-cost">
+											<div class="booster__additional-cost-box">
+												<div class="booster__additional-price">
+													<img src="images/product/minus.svg" alt="minus">
+													<div class="booster__additional-text">х1</div>
+													<img src="images/product/plus.svg" alt="plus">
+												</div>
+												<div class="booster__aditional-cost-price">
+												   <p>$40<span>.98</span></p> 
+												</div>
+											</div>
+											
+											<div class="booster-form__time booster-form__time-bottom">
+												<div class="booster-form__name booster-form__name--time">
+													ETA
+												</div>
+												<img class="booster-form__time-img booster-form__img-bottom" src="images/product/time.png" alt="Time">
+												<div class="booster__text">
+													3-4 week
+												</div>
+											</div>
+										</div>
+										<button class="booster__additional-btn">
+											<p>ADD TO CART</p>
+										 </button>
+									</div>
                                 </div>
                                 
                             </form>
@@ -2157,15 +2174,23 @@
         <div class="container">
             <div class="infograph__inner">
                 <div class="infograph__nav">
-                    <div class="infograph__nav-item"><a href="#"> INCLUDES</a></div>
-                    <div class="infograph__nav-item"><a href="#">REQUIREMENTS</a></div>
-                    <div class="infograph__nav-item"><a href="#">DESCRIPTIONS</a></div>
-                    <div class="infograph__nav-item"><a href="#">INFORMATION</a></div>
-                    <div class="infograph__nav-item"><a href="#">CASHBACK</a></div>
+                    <div class="infograph__nav-item active-nav">
+						<a href="#"> INCLUDES <span>&#9656;</span> </a>
+					</div>
+                    <div class="infograph__nav-item ">
+						<a href="#">REQUIREMENTS</a>
+					</div>
+                    <div class="infograph__nav-item">
+						<a href="#">DESCRIPTIONS</a></div>
+					<div class="infograph__nav-item"><a href="#">INFORMATION</a>
+					</div>
+                    <div class="infograph__nav-item">
+						<a href="#">CASHBACK</a>
+					</div>
                 </div>
                 <div class="infograph__common">
                     <div class="row">
-                        <div class="col-md-6 pr-5">
+                        <div class="col-md-6 pr-md-5">
                             <div class="infograph__common-item pb-3 pb-md-0">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. At a est mi odio risus eget elementum ut volutpat. A velit volutpat neque, nulla sed nunc tellus. Eu id eget scelerisque urna dapibus. Velit pellentesque tortor erat rutrum rutrum sapien. Elementum ipsum pretium non dictum ut odio lacinia. Aliquam ante ullamcorper nam semper laoreet mattis urna. Tincidunt amet aliquet leo sagittis massa semper massa. Vitae urna ipsum duis enim enim nisl, imperdiet lorem sed. Est lacus, mi cras convallis dictum at sem turpis. Accumsan habitasse imperdiet eu, tincidunt viverra amet ut
                             </div>
@@ -2194,7 +2219,7 @@
 
 			<div class="steps__box">
 				<div class="row">
-					<div class="col-6 col-md-3 pr-md-3 pr-lg-5 pb-5 pb-ms-0">
+					<div class="col-6 col-md-3 pr-3 pr-lg-5 pb-4 pb-md-5 pb-ms-0">
 						<div class="steps__box-title">
 							STEP 1
 						</div>
@@ -2206,7 +2231,7 @@
 							Choose a boosting service you would like to get, learn more about it under its Service Includes, Requirements and Description tabs.
 						</div>
 					</div>
-					<div class="col-6 col-md-3 pr-md-3 pr-lg-5 pb-5 pb-ms-0">
+					<div class="col-6 col-md-3 pr-0 pr-md-3 pr-lg-5 pb-4 pb-md-5 pb-ms-0">
 						<div class="steps__box-title">
 							STEP 2
 						</div>
@@ -2218,7 +2243,7 @@
 							Add some additional options (if there are any) in order to modify/upgrade your product and get the most complete service.
 						</div>
 					</div>
-					<div class="col-6 col-md-3 pr-md-3 pr-lg-5 ">
+					<div class="col-6 pr-3 col-md-3 pr-lg-5 ">
 						<div class="steps__box-title">
 							STEP 3
 						</div>
@@ -2272,8 +2297,8 @@
 								<img src="images/all-sales/star.svg" alt="">
 								<img src="images/all-sales/star-grey.svg" alt="">
 							</div>
-							<div class="reviews__text pt-4">
-								<p>Based on</p>
+							<div class="reviews__text reviews__text--column pt-4">
+								<p class="mb-1">Based on</p>
 								<p> 12 reviews</p>
 							</div>
 						</div>
@@ -2281,35 +2306,71 @@
 							<div class="reviews__stat-line__item">
 								<div class="reviews__text">
 									<p class="reviews__stat-line__text">5</p>
-									<img src="images/product/line.png" alt="">
+									<div class="reviews__line"></div>
+									<div class="reviews__progress reviews__progress-1">
+										<style>
+											.reviews__progress-1{
+												width: 60%;
+											}
+										</style>
+									</div>
 									<p class="reviews__stat-line__text">76%</p>
 								</div>
+
 							</div>
 							<div class="reviews__stat-line__item">
 								<div class="reviews__text">
 									<p class="reviews__stat-line__text">4</p>
-									<img src="images/product/line.png" alt="">
+									<div class="reviews__line"></div>
+									<div class="reviews__progress reviews__progress-2">
+										<style>
+											.reviews__progress-2{
+												width: 30%;
+											}
+										</style>
+									</div>
 									<p class="reviews__stat-line__text">14%</p>
 								</div>
 							</div>
 							<div class="reviews__stat-line__item">
 								<div class="reviews__text">
 									<p class="reviews__stat-line__text">3</p>
-									<img src="images/product/line.png" alt="">
+									<div class="reviews__line"></div>
+									<div class="reviews__progress reviews__progress-3">
+										<style>
+											.reviews__progress-3{
+												width: 13%;
+											}
+										</style>
+									</div>
 									<p class="reviews__stat-line__text">6%</p>
 								</div>
 							</div>
 							<div class="reviews__stat-line__item">
 								<div class="reviews__text">
 									<p class="reviews__stat-line__text">2</p>
-									<img src="images/product/line.png" alt="">
+									<div class="reviews__line"></div>
+									<div class="reviews__progress reviews__progress-4">
+										<style>
+											.reviews__progress-4{
+												width: 5%;
+											}
+										</style>
+									</div>
 									<p class="reviews__stat-line__text">1%</p>
 								</div>
 							</div>
 							<div class="reviews__stat-line__item">
 								<div class="reviews__text">
 									<p class="reviews__stat-line__text">1</p>
-									<img src="images/product/line.png" alt="">
+									<div class="reviews__line"></div>
+									<div class="reviews__progress reviews__progress-5">
+										<style>
+											.reviews__progress-5{
+												width: 10%;
+											}
+										</style>
+									</div>
 									<p class="reviews__stat-line__text">3%</p>
 								</div>
 							</div>
